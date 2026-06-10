@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+body{
+    background-color:lightblue;
+}
+h1{
+    color:black;
+    background-color:aqua;
+    text-decoration: wavy;
+    font-style: oblique;
+}
+.intro{
+    font-style:bold;
+    font-size: 30px;
+    background-color: aqua;
+    color:black;
+    border-color: grey;
+    border-width: 5px;
+    border-style:dotted;
+    border-radius: 7px;
+}
+table{
+    margin-left: 22%;
+}
+a{
+    border-width:2px;
+    border-color:black;
+    border-style: dotted;
+    display:inline-block;
+
+}
+.input{
+    border-radius: 5px;
+    padding:2px;
+    color:aqua;
+    background-color:black;
+    text-align: center;
+    font-style:oblique;
+    text-decoration: wavy;
+}
+big{
+    text-align: center;
+    background-color:black;
+    font-style: italic;
+    color: aqua;
+    padding:20px;
+    padding-bottom:0px;
+    border-radius:6px;
+    margin-top:0 ;
+}
