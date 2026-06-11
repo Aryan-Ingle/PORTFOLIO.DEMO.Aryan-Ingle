@@ -39,6 +39,17 @@ a{
     font-style:oblique;
     text-decoration: wavy;
 }
+#img{
+    background-color: white;
+    border-color:black;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 5px;
+    display: inline-block;
+    height: 350px;
+    width: 500px;
+    margin-top: 10px;
+}
 big{
     text-align: center;
     background-color:black;
