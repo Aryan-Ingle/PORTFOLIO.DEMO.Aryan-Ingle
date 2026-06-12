@@ -1,6 +1,14 @@
 *{
     text-align: center;
 }
+@media(min-width:500px){
+    #robita{
+        height: 25px;
+    };
+    #robtext{
+        font-size: 8px;
+    };
+}
 body{
     background-color:lightblue;
 }
@@ -19,7 +27,17 @@ h1{
     border-width: 5px;
     border-style:dotted;
     border-radius: 7px;
+    animation: ColorChange 3s ease-in-out infinite alternate;
 }
+@keyframes ColorChange{
+        from{color: black;
+            background-color: aqua;
+            border-color: grey;}
+        to
+        {color: white;
+            background-color: red;
+            border-color:white;}
+    }
 table{
     margin-left: 22%;
 }
@@ -49,6 +67,71 @@ a{
     height: 350px;
     width: 500px;
     margin-top: 10px;
+}
+#ai{
+    text-align: center;
+    background-image: url(https://i0.wp.com/www.ripplesnigeria.com/wp-content/uploads/2024/08/images-23-1.jpeg?w=739&ssl=1);
+    background-size:cover;
+
+}
+#rob{
+    color:aqua;
+    background-color: black;
+    opacity:75%;
+    text-align: center;
+    font-size: 12px;
+}
+#robita{
+    height: 80px;
+    margin-right: 5px;
+    display: inline-block;
+    position: fixed;
+    right:0px;
+    top: 50%;
+    border-radius: 50%;
+    border-top: 4px double black;
+    border-right: 5px solid grey;
+    border-bottom: 6px double lightgrey;
+    border-left: 7px solid white;
+}
+#message{
+    border: 5px dashed cornflowerblue;
+    border-radius:3px;
+    color:red;
+    background-color: black;
+    opacity: 75%;
+}
+#robtext{
+    position: fixed;
+    right: 0px;
+    top:65%;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 9px;
+    color:rgb(0, 119, 255);
+    background-color:azure;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-style:oblique;
+    animation:robtext 2s ease-in-out infinite alternate;
+}
+.robret{
+    color:red;
+    background-color:cornsilk;
+    text-align:center;
+    font-style:oblique;
+    padding:0;
+    font: 25px;
+    height: 30px;
+    width: 75px;
+}
+@keyframes robtext{
+from{
+    background-color:azure;
+}
+to{
+    background-color:black;
+}
 }
 big{
     text-align: center;
